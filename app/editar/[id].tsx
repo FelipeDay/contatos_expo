@@ -3,6 +3,7 @@ import { useLocalSearchParams, router } from "expo-router";
 import { View, TextInput, Button, StyleSheet, Alert } from "react-native";
 import { Contato, getContatos } from "../../services/contatos";
 import { api } from "../../services/api";
+import styles from "../../Estilos/main";
 
 export default function EditarContato() {
   const { id } = useLocalSearchParams();
