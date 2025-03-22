@@ -1,7 +1,8 @@
 import React from "react";
 import { Contato } from "../services/contatos";
-import { View } from "react-native"
-import styles from "../estilos/main"
+import { View, Text } from "react-native"
+import { styles }  from "../Estilos/main"
+
 
 const Detalhes: React.FC<Contato> = (contato) => {
     return(
